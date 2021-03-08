@@ -1,0 +1,17 @@
+{
+  "name": "apiProject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "scripts": {
+    "start": "tsc && node dist/main.js",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.2"
+  }
+}
